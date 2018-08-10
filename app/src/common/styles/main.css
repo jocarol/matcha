@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'ShreeDev0714' !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  height: 100%;
+}
+
+.is-danger {
+  color: #c10027 !important;
+  border-color: #c10027 !important;
+}
